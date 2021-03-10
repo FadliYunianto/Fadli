@@ -52,9 +52,7 @@ if(!($_SESSION['forbidden'])) {
     <div class="overlay"></div>
     <div class="text">
 </header>
-
-<form method=post>
-<input type="password" name="password"></form></body></html>
+</html>
       
       <br>
       <br>
