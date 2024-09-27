@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap" rel="stylesheet">
+    <title>404 NOT FOUND</title>
+    <style>
+        *, html {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: "Black Ops One", system-ui, Tahoma;
+            overflow: hidden; /* Mencegah scrollbar */
+        }
+        .background {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-image: url('https://bpptik.kominfo.go.id/image/pelatihan/2023/01/f5524f68-ad0c-4b0f-b387-0a2cad5defd6.jpg');
+            background-size: cover;
+            filter: blur(5px); /* Blur pada latar belakang */
+            z-index: 0; /* Di belakang konten */
+        }
+        .box {
+            position: relative;
+            max-width: 750px;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        .box h1 {
+            font-size: 50px;
+            margin-bottom: 10px; /* Jarak antara h1 dan p */
+        }
+        .box p {
+            font-size: 10px; /* Ukuran teks untuk paragraf lebih kecil */
+            margin: 5px 0; /* Jarak antara paragraf */
+        }
+        .box>.kecil{
+            font-size: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="background"></div> <!-- Background yang blur -->
+    <div class="box">
+        <h1>404 NOT FOUND</h1>
+        <p class="kecil">Kalau Mau Ngehek Bukan Disini Tempatnya</p>
+        <p>Dilindungi oleh fadli0x1</p>
+    </div>
+</body>
+</html>
